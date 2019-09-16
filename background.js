@@ -11,6 +11,15 @@ chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
   }]);
 });
 
+chrome.runtime.onMessage.addListener(
+  function(message, callback) {
+    if (message == "runContentScript"){
+      chrome.tabs.executeScript({
+        file: 'contentScript.js'
+      });
+    }
+ });
+
 // pseudocode - run hideLies on window load 
 // add listener: only toggle lies if popup toggle clicked 
 hideLies.onload = function(element) {

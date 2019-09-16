@@ -4,7 +4,7 @@
   "description": "TBA!",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
-    "scripts": ["background.js", "rules.js"],
+    "scripts": ["background.js", "contentScript.js"],
     "persistent": false 
   },
   "page_action": {
