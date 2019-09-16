@@ -15,5 +15,10 @@
       "32": "bird32.png"
     }
   },
+  "icons": {
+    "16": "bird16.png",
+    "24": "bird24.png",
+    "32": "bird32.png"
+  },
   "manifest_version": 2
 }
