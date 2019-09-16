@@ -1,4 +1,3 @@
-let changeColor = document.getElementById('changeColor');
 let toggleButton = document.getElementById('toggle');
 let toggleClasses = toggleButton.classList;
 
@@ -14,5 +13,18 @@ let toggleIsOff = function() {
   toggleButton.innerHTML = 'Show me the truths';
 };
 
-// pseudocode
+toggleButton.onclick = function() {
+  if (!toggleClasses.contains('toggle-on')) {
+    toggleIsOn();
+    chrome.storage.local.set({ isPaused: false });
+    chrome.storage.local.get();
+  } else {
+    toggleIsOff();
+    chrome.storage.local.set({
+      isPaused: true,
+      pausedCount: count
+    });
+    showLies(); // reload content?
+  }
+}
 

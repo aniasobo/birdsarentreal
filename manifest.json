@@ -2,9 +2,9 @@
   "name": "My first Chrome extension",
   "version": "1.0",
   "description": "TBA!",
-  "permissions": ["declarativeContent", "storage"],
+  "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["background.js", "rules.js"],
     "persistent": false 
   },
   "page_action": {
