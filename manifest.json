@@ -10,9 +10,9 @@
   "page_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "raven16.png",
-      "24": "raven24.png",
-      "32": "raven32.png"
+      "16": "bird16.png",
+      "24": "bird24.png",
+      "32": "bird32.png"
     }
   },
   "manifest_version": 2
