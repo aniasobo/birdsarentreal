@@ -2,7 +2,7 @@
   "name": "My first Chrome extension",
   "version": "1.0",
   "description": "TBA!",
-  "permissions": ["storage"],
+  "permissions": ["declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"], // add anything else to use here
     "persistent": false // should it be persistent?
