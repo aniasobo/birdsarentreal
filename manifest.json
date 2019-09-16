@@ -2,9 +2,18 @@
   "name": "My first Chrome extension",
   "version": "1.0",
   "description": "TBA!",
+  "permissions": ["storage"],
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "scripts": ["background.js"], // add anything else to use here
+    "persistent": false // should it be persistent?
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "raven16.png",
+      "24": "raven24.png",
+      "32": "raven32.png"
+    }
   },
   "manifest_version": 2
 }
