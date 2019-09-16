@@ -37,21 +37,50 @@ p {
   padding: 0 2em;
 }
 
-#toggle {
-  min-width: 90px;
-  padding: 0.5em 0.75em;
-  outline: none;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 1px 1px 1px #333;
-  background-color: coral;
-  font-size: 1.4em;
-  text-transform: capitalize;
+.button-box.toggle-on.toggle-off {
+  font-size: 0.5em;
+  text-align: center;
+  padding: 0 2em;
 }
-#toggle.is-on {
-  color: bisque;
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
 }
-#toggle.is-off {
-  color: coral;
-  background-color: bisque;
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 200px;
+	height: 100px;
+	background: grey;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 90px;
+	height: 90px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: #21a567;
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 130px;
 }
