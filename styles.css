@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  color: #333;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 700;
+  font-size: 3em;
+  letter-spacing: 4px;
+  text-shadow: 1px 2px 2px floralwhite;
+}
+
+p {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.title-box {
+  padding: 1em 2em;
+  text-align: right;
+  border-right: 1px solid #333;
+}
+
+.button-box{
+  padding: 0 2em;
+}
+
+#toggle {
+  min-width: 90px;
+  padding: 0.5em 0.75em;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px #333;
+  background-color: coral;
+  font-size: 1.4em;
+  text-transform: capitalize;
+}
+#toggle.is-on {
+  color: bisque;
+}
+#toggle.is-off {
+  color: coral;
+  background-color: bisque;
+}
