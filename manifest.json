@@ -4,8 +4,8 @@
   "description": "TBA!",
   "permissions": ["declarativeContent", "storage"],
   "background": {
-    "scripts": ["background.js"], // add anything else to use here
-    "persistent": false // should it be persistent?
+    "scripts": ["background.js"],
+    "persistent": false 
   },
   "page_action": {
     "default_popup": "popup.html",
