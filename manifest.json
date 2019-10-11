@@ -2,20 +2,6 @@
   "name": "Birds Aren't Real",
   "version": "1.0",
   "description": "Replaces birds with government drones",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
-  "author": "Anna Sobolewska",
-  // "background": {
-  //   "scripts": ["background.js", "contentScript.js"],
-  //   "persistent": false 
-  // },
-  // "page_action": {
-  //   "default_popup": "popup.html",
-  //   "default_icon": {
-  //     "16": "bird16.png",
-  //     "24": "bird24.png",
-  //     "32": "bird32.png"
-  //   }
-  // },
   "content scripts":
     [
       {
