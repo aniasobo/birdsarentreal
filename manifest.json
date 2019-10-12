@@ -2,7 +2,7 @@
   "name": "Birds Aren't Real",
   "version": "1.0",
   "description": "Replaces birds with government drones",
-  "content scripts":
+  "content_scripts":
     [
       {
         "matches": ["*://*/*"],
