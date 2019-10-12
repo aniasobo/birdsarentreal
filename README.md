@@ -2,9 +2,9 @@
 
 A Chrome browser extension that replaces 'birds' with 'government drones'. 
 
-Are you sick of the lie that birds really exist? **Download this extension from the Chrome store**.
+Are you sick of the lie that birds really exist? **Download this extension from the Chrome Web Store**.
 
-Oh wait, you still believe that birds are real? [Wake up bro](https://www.reddit.com/r/BirdsArentReal/). [They aren't](https://birdsarentreal.com/pages/the-history).
+Oh wait, you still believe that birds are real? [Wake up bro, they aren't](https://birdsarentreal.com/pages/the-history). Just [look at the evidence](https://www.reddit.com/r/BirdsArentReal/).
 
 ## Live action
 

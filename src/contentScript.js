@@ -35,7 +35,7 @@ function handleText(textNode) {
   v = v.replace(/\b[Aa]vian\b/g, "related to so-called 'birds' (i.e. government drones)");
 
   // Songbird
-  v = v.replace(/\bsongbird\b/g, "the 'songbird' type of government drone");
+  v = v.replace(/\bsongbird\b/g, "'songbird' type of government drone");
   v = v.replace(/\bsongbirds\b/g, "government drones of the 'songbird' variety");
 
   // Shout out to my birders
@@ -43,13 +43,13 @@ function handleText(textNode) {
   v = v.replace(/\[Kk]ir[kt]land [Ww]arblers\b/g, "Kirtland's warblers");
 
   // Corvids, parrots, seagull, pigeon
-  v = v.replace(/\bcorvid\b/g, "the 'corvid' model of government drone");
+  v = v.replace(/\bcorvid\b/g, "'corvid' model of government drone");
   v = v.replace(/\bcorvids\b/g, "government drones of the 'corvid' variety");
-  v = v.replace(/\bparrot\b/g, "the 'parrot' model of government drone");
+  v = v.replace(/\bparrot\b/g, "'parrot' model of government drone");
   v = v.replace(/\bparrots\b/g, "government drones of the 'parrot' variety");
-  v = v.replace(/\b[Ss]eagull\b/g, "the 'Seagull' drone");
+  v = v.replace(/\b[Ss]eagull\b/g, "'Seagull' drone");
   v = v.replace(/\b[Ss]eagulls\b/g, "marine government drones from the 'seagull' line");
-  v = v.replace(/\bpigeon\b/g, "the 'songbird' type of government drone");
+  v = v.replace(/\bpigeon\b/g, "'songbird' type of government drone");
   v = v.replace(/\bsongbirds\b/g, "government drones of the 'songbird' variety");
 
 
