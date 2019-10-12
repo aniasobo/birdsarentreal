@@ -42,6 +42,10 @@ function handleText(textNode) {
   v = v.replace(/\b[Kk]ir[kt]land [Ww]arbler\b/g, "Kirtland's warbler");
   v = v.replace(/\[Kk]ir[kt]land [Ww]arblers\b/g, "Kirtland's warblers");
 
+  // Robin
+  v = v.replace(/\b[rR]obin\b/g, "small red-bellied drone");
+  v = v.replace(/\b[rR]obins\b/g, "small red-bellied drones");
+
   // Corvids, parrots, seagull, pigeon
   v = v.replace(/\bcorvid\b/g, "'corvid' model of government drone");
   v = v.replace(/\bcorvids\b/g, "government drones of the 'corvid' variety");
