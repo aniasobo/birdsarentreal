@@ -1,7 +1,8 @@
 {
   "name": "Birds Aren't Real",
   "version": "1.0",
-  "description": "Replaces birds with government drones",
+  "description": "Corrects the word 'bird' to 'government drone'.",
+  "author": "Anna Sobolewska",
   "content_scripts":
     [
       {
@@ -14,7 +15,8 @@
   "icons": {
     "16": "bird16.png",
     "24": "bird24.png",
-    "32": "bird32.png"
+    "32": "bird32.png",
+    "128": "bird128.png"
   },
   "manifest_version": 2
 }
