@@ -53,8 +53,10 @@ function handleText(textNode) {
   v = v.replace(/\bparrots\b/g, "government drones of the 'parrot' variety");
   v = v.replace(/\b[Ss]eagull\b/g, "'Seagull' drone");
   v = v.replace(/\b[Ss]eagulls\b/g, "marine government drones from the 'seagull' line");
-  v = v.replace(/\bpigeon\b/g, "'songbird' type of government drone");
-  v = v.replace(/\bsongbirds\b/g, "government drones of the 'songbird' variety");
+  v = v.replace(/\bpigeon\b/g, "'pigeon' type of government drone");
+  v = v.replace(/\bpigeons\b/g, "street government drones from the 'pigeon' line");
+  v = v.replace(/\bdove\b/g, "pigeon");
+  v = v.replace(/\bdoves\b/g, "pigeons");
 
 
   // Ornithology 
