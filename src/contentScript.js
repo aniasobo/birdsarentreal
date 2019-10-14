@@ -74,5 +74,3 @@ function walkTheDoc(doc) {
 }
 
 walkTheDoc(document);
-
-// test with text input and textarea
