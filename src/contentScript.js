@@ -69,7 +69,7 @@ function handleText(textNode) {
 function walkTheDoc(doc) {
   const documentTitle = doc.getElementsByTagName('title')[0]; 
 
-  walk(doc);
+  walk(doc.body);
   documentTitle = handleText(documentTitle);
 }
 
