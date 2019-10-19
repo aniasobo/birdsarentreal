@@ -20,6 +20,8 @@ Forked from [@panicsteve](https://github.com/panicsteve/cloud-to-butt) and [@eri
 
 Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/).
 
+With contributions from [@colepeters](https://github.com/colepeters).
+    
 Inspired by [Leslie Stetz](https://github.com/lzacharkow/newtab-example) and [Jennifer Wong](https://24ways.org/2018/my-first-chrome-extension/).
 
 ## ![bird icon](src/bird24.png) Most importantly though
